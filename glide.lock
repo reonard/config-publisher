@@ -1,0 +1,47 @@
+hash: 2b08db320db21a3d719a8fd61d4b9f887262128733b7c3b4250d1fa754475d08
+updated: 2019-02-05T17:40:48.999464+08:00
+imports:
+- name: github.com/bsm/sarama-cluster
+  version: c618e605e15c0d7535f6c96ff8efbb0dba4fd66c
+- name: github.com/DataDog/zstd
+  version: 1e382f59b41eebd6f592c5db4fd1958ec38a0eba
+- name: github.com/davecgh/go-spew
+  version: d8f796af33cc11cb798c1aaeb27a4ebc5099927d
+  subpackages:
+  - spew
+- name: github.com/eapache/go-resiliency
+  version: 487be0453c7b062bff8dcd0ca2570f09e780a9e2
+  subpackages:
+  - breaker
+- name: github.com/eapache/go-xerial-snappy
+  version: 776d5712da21bc4762676d614db1d8a64f4238b0
+- name: github.com/eapache/queue
+  version: 093482f3f8ce946c05bcba64badd2c82369e084d
+- name: github.com/globalsign/mgo
+  version: eeefdecb41b842af6dc652aaea4026e8403e62df
+  subpackages:
+  - bson
+  - internal/json
+  - internal/sasl
+  - internal/scram
+- name: github.com/go-ini/ini
+  version: 6ed8d5f64cd79a498d1f3fab5880cc376ce41bbe
+- name: github.com/go-sql-driver/mysql
+  version: 72cd26f257d44c1114970e19afddcd812016007e
+- name: github.com/golang/snappy
+  version: 2e65f85255dbc3072edf28d6b5b8efc472979f5a
+- name: github.com/patrickmn/go-cache
+  version: 5633e0862627c011927fa39556acae8b1f1df58a
+- name: github.com/pierrec/lz4
+  version: 473cd7ce01a1113208073166464b98819526150e
+  subpackages:
+  - internal/xxh32
+- name: github.com/rcrowley/go-metrics
+  version: 3113b8401b8a98917cde58f8bbd42a1b1c03b1fd
+- name: github.com/Shopify/sarama
+  version: 03a43f93cd29dc549e6d9b11892795c206f9c38c
+- name: google.golang.org/appengine
+  version: 2d2298565d5a399bdfec98dbc259d6393e3cf8ba
+  subpackages:
+  - cloudsql
+testImports: []
